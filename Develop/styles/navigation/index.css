@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "radiant";
+    src: url(/Develop/assets/fonts/radiant/OPTIRadiant-Heavy.otf);
+}
+
+.navigation{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 1.5rem;
+max-width: 1440px;
+width: 90%;
+margin: auto;
+
+z-index: 10;
+}
+
+.navigation__logo{
+    font-family: "radiant";
+    font-size: 22px;
+    
+    
+}
+
+.navigation__links ul{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 5px;
+gap: 40px;
+
+width: 350px;
+height: 22px;
+
+font-family: 'Yantramanav';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+letter-spacing: 0.015em;
+}
+
