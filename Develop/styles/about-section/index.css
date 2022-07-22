@@ -1,3 +1,40 @@
 .about-section{
-    height: 100vh;
+  
 }
+
+.about-section__title-container{
+    text-align: center;
+}
+
+.about-section__title{
+    font-family: 'Yantramanav';
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;   
+}
+
+.about-section__title::after{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+}
+
+.about-section__content-container{
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+.about-section__profile-image {
+    max-width: 16.25rem;
+    border-radius: 1rem;
+    float: left;
+    padding: 10px;
+
+}
+
